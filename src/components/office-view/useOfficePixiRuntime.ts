@@ -131,7 +131,7 @@ export function useOfficePixiRuntime({
       }
 
       loads.push(
-        Assets.load<Texture>("/sprites/ceo-lobster.png")
+        Assets.load<Texture>("/sprites/ceo-juan.png")
           .then((texture) => {
             textures.ceo = texture;
           })
